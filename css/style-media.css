@@ -7,7 +7,7 @@
     flex-basis: calc(100% / 3);
 }
     
-.col-md-1_2{
+.col-md-2_3{
     flex-basis: calc((100% / 3) * 2);
 }
     
@@ -20,7 +20,7 @@
 }
     
 .col-md-3_4{
-    flex-basis: calc((100% / 4) * 2)
+    flex-basis: calc((100% / 4) * 3)
 }
     
 }
@@ -34,10 +34,10 @@
         flex-basis: 50%;
     }
     .col-lg-1_3{
-        flex-basis: calc(100% / 3);
+        width: 33.3%;
     }
         
-    .col-lg-1_2{
+    .col-lg-2_3{
         flex-basis: calc((100% / 3) * 2);
     }
         
@@ -50,7 +50,7 @@
     }
         
     .col-lg-3_4{
-        flex-basis: calc((100% / 4) * 2)
+        flex-basis: calc((100% / 4) * 3)
     }
     
 }

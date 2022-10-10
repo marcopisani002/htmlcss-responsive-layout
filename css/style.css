@@ -2,16 +2,24 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --color-primary: #0086FF;
+    --color-primary-light: #AADFFF;
+    --color-secondary: #9892EA;
+
+}
+
 .container {
     width: 100%;
-    margin:0 auto;
-   padding: 0 1rem;
-   border: 1px dashed red;}
+    margin: 0 auto;
+    padding: 1rem;
+
+}
 
 nav {
     align-items: center;
     justify-content: space-between;
-    background-color: #0ea7ff;
+    background-color: var(--color-primary);
     display: flex;
     position: fixed;
     left: 0%;
@@ -43,7 +51,7 @@ nav .button-li {
     border-radius: 15px;
     padding: 0.5rem 1rem;
     border-style: none;
- 
+
 }
 
 .button-li:hover {
@@ -56,7 +64,7 @@ nav .button-li {
     color: rgb(214, 214, 214);
 }
 
-.sec1 {
+section {
     margin-top: 5rem;
 }
 
@@ -66,9 +74,12 @@ nav .button-li {
 }
 
 .row>* {
-    border: 1px solid blue;
+
     flex-grow: 1;
     flex-basis: 100%;
+    padding-bottom: .5rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
 }
 
 .col-1_2 {
@@ -79,7 +90,7 @@ nav .button-li {
     flex-basis: calc(100% / 3);
 }
 
-.col-1_2 {
+.col-2_3 {
     flex-basis: calc((100% / 3) * 2);
 }
 
@@ -93,4 +104,85 @@ nav .button-li {
 
 .col-3_4 {
     flex-basis: calc((100% / 4) * 2)
+}
+
+.card {
+    background-color: darkcyan;
+    border-radius: 20px;
+
+    padding: 1rem;
+}
+
+.card-primary {
+    background-color: var(--color-primary-light);
+    color: var(--color-primary);
+}
+
+.card-secondary {
+   
+    background-color: var(--color-secondary);
+    color: white;
+}
+
+.card-white-secondary {
+    background-color: white;
+    color: var(var(--color-secondary));
+}
+
+.btn-blue {
+    border-style: none;
+    background-color: var(--color-primary);
+    color: white;
+    padding: .6rem 1rem;
+    border-radius: 15px;
+}
+
+.btn-blue:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.phone1 {
+    bottom: -2rem;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.tx-cent {
+
+    text-align: center;
+}
+
+.file-icon {
+    font-size: 130px;
+}
+
+.white-container {
+    padding: 1rem 1rem;
+    height: fit-content;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    position: relative;
+    margin-top: 4.5rem;
+    margin-left: 1.5rem;
+}
+.btn-sec3{
+    border-radius: 50%;
+    background-color: #9892EA;
+    color: black;
+    border-style: none;
+    padding: 0 1rem;
+}
+.file-icon2 {
+    font-size: 50px;
+}
+.file-icon2:hover {
+    background-color: aquamarine;
+    color: black;
+}
+.img-logo2 {
+   margin-top: 2rem;
+    width: 170px;
 }
