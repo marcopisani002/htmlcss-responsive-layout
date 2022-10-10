@@ -119,14 +119,16 @@ section {
 }
 
 .card-secondary {
-   
+
     background-color: var(--color-secondary);
     color: white;
 }
 
 .card-white-secondary {
+    border-radius: 15px;
+    padding: 2rem;
     background-color: white;
-    color: var(var(--color-secondary));
+    color: var(--color-secondary);
 }
 
 .btn-blue {
@@ -141,6 +143,7 @@ section {
     background-color: aquamarine;
     color: black;
 }
+
 .phone1 {
     bottom: -1.5rem;
     position: relative;
@@ -165,47 +168,97 @@ section {
     border-radius: 20px;
     color: black;
     position: relative;
-    margin-top: 4.5rem;
+    margin-top: 3.5rem;
     margin-left: 1.5rem;
 }
-.btn-sec3{
+
+.btn-sec3 {
     border-radius: 50%;
     background-color: #9892EA;
     color: black;
     border-style: none;
     padding: 0 1rem;
 }
+
 .file-icon2 {
     font-size: 50px;
 }
+
 .file-icon2:hover {
     background-color: aquamarine;
     color: black;
 }
+
 .img-logo2 {
-   margin-top: 2rem;
-    width: 170px;
+    margin-top: 2rem;
+    width: 60%;
 }
-.test-face{
+
+.test-face {
 
     border-radius: 50%;
 }
+
 .card-secondary-face {
     margin: 3rem;
-   border-radius: 20px;
+    border-radius: 20px;
     background-color: var(--color-secondary);
     color: white;
 }
-.img-test{
-   
-    width: 110%;
-    border-radius:50%;
+
+.img-test {
+
+    width: 90%;
+    border-radius: 50%;
     padding: .5rem;
-    
+
 }
-#row2{
-    display: flex;
-    align-items:center ;
-    justify-content: space-around;
-    
+
+.h1-card {
+    color: var(--color-secondary);
+    font-size: 40px;
+}
+
+.img-logo3 {
+
+    width: 100%;
+}
+
+.btn-card1 {
+    border-style: none;
+    background-color: var(--color-secondary);
+    color: white;
+    padding: .6rem 1rem;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.btn-card1:hover {
+    background-color: rgb(25, 114, 84);
+
+}
+
+p {
+    font-size: clamp(16px, 2vw, 20px);
+    line-height: 1.5;
+
+}
+.font-yellow{
+    color: rgb(255, 196, 0);
+    font-size: 60px;
+}
+.btn-ftr {
+    margin-right: 15rem;
+    background-color: white;
+    color: var(--color-secondary);
+    border-radius: 15px;
+    padding: 1rem 1.5rem;
+    border-style: none;
+    font-weight: bold;
+
+}
+
+.btn-ftr:hover {
+    background-color: aquamarine;
+    color: black;
 }
