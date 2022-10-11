@@ -1,5 +1,6 @@
 @media screen and (min-width:760px)
 {
+  
 .col-md-1_2{
     flex-basis: 50%;
 }
@@ -42,6 +43,8 @@ p {
     padding: 1rem;
     max-width: 920px;
 }
+
+
 }
 
 @media screen and (min-width:920px)
@@ -88,4 +91,9 @@ p {
         color: var(--color-secondary);
         font-size: 40px;
     }
+    .burger{
+        display: none;
+  
+    }
+ 
 }
