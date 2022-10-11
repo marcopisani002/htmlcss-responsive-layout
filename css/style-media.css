@@ -32,13 +32,26 @@ p {
     line-height: 1.4;
 
 }
+.h1-card {
+    color: var(--color-secondary);
+    font-size: 40px;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 920px;
+}
 }
 
 @media screen and (min-width:920px)
-{
-    .container{
-        max-width: 920px;
-    }
+{.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 920px;
+ }
+    
     .col-lg-1_2{
         flex-basis: 50%;
     }
@@ -70,5 +83,9 @@ p {
         font-size: clamp(16px, 2vw, 20px);
         line-height: 1.4;
     
+    }
+    .h1-card {
+        color: var(--color-secondary);
+        font-size: 40px;
     }
 }
