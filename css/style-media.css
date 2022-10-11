@@ -27,6 +27,11 @@
     align-items:center ;
     justify-content: space-around;
 }
+p {
+    font-size: clamp(16px, 2vw, 20px);
+    line-height: 1.4;
+
+}
 }
 
 @media screen and (min-width:920px)
@@ -61,4 +66,9 @@
         align-items:center ;
         justify-content: space-around;
     }  
+    p {
+        font-size: clamp(16px, 2vw, 20px);
+        line-height: 1.4;
+    
+    }
 }
